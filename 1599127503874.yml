@@ -1,0 +1,1141 @@
+port: 8888
+socks-port: 8889
+redir-port: 9090
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: '127.0.0.1:6170'
+secret: ''
+cfw-latency-url: 'http://captive.rixcloud.io/generate_204'
+proxies:
+  -
+    name: '香港 Legacy Magic IEPL 中继 1'
+    type: ss
+    server: hk1.aia.medge.dev
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港 Legacy Magic IEPL 中继 2'
+    type: ss
+    server: hk2.aia.medge.dev
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港 Legacy Magic IEPL 中继 3'
+    type: ss
+    server: hk3.aia.medge.dev
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港 Legacy Magic IEPL 中继 4'
+    type: ss
+    server: hk4.aia.medge.dev
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港 Legacy Magic IEPL 中继 5'
+    type: ss
+    server: hk5.aia.medge.dev
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港 Legacy Magic IEPL 中继 6'
+    type: ss
+    server: hk6.aia.medge.dev
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港 Legacy Magic IEPL 中继 7'
+    type: ss
+    server: hk7.aia.medge.dev
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港 Legacy Magic IEPL 中继 8'
+    type: ss
+    server: hk8.aia.medge.dev
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港 Legacy Magic IEPL 中继 9'
+    type: ss
+    server: hk9.aia.medge.dev
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港 Legacy Magic IEPL 中继 10'
+    type: ss
+    server: hk10.aia.medge.dev
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '新加坡 Legacy Magic IEPL 中继 1'
+    type: ss
+    server: sg1.aia.medge.dev
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '日本 Legacy Magic IEPL 中继 1'
+    type: ss
+    server: jp1.aia.medge.dev
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '日本 Legacy Magic IEPL 中继 2'
+    type: ss
+    server: jp2.aia.medge.dev
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '日本 Legacy Magic IEPL 中继 3'
+    type: ss
+    server: jp3.aia.medge.dev
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '日本 Legacy Magic IEPL 中继 4'
+    type: ss
+    server: jp4.aia.medge.dev
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '韩国 Legacy Magic IEPL 中继 1'
+    type: ss
+    server: kr1.aia.medge.dev
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '韩国 Legacy Magic IEPL 中继 2'
+    type: ss
+    server: kr2.aia.medge.dev
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '台湾 Legacy Magic IEPL 中继 1'
+    type: ss
+    server: tw1.aia.medge.dev
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '台湾 Legacy Magic IEPL 中继 2'
+    type: ss
+    server: tw2.aia.medge.dev
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '台湾 Legacy Magic IEPL 中继 3'
+    type: ss
+    server: tw3.aia.medge.dev
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港实验性 IEPL 中继 1'
+    type: ss
+    server: hk1.edge.iepl.dev
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港实验性 IEPL 中继 2'
+    type: ss
+    server: hk2.edge.iepl.dev
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港实验性 IEPL 中继 3'
+    type: ss
+    server: hk3.edge.iepl.dev
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港实验性 IEPL 中继 4'
+    type: ss
+    server: hk4.edge.iepl.dev
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港实验性 IEPL 中继 5'
+    type: ss
+    server: hk5.edge.iepl.dev
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '日本优化 CN2 中继 1'
+    type: ss
+    server: jp1.edge.as4809.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '日本优化 CN2 中继 2'
+    type: ss
+    server: jp2.edge.as4809.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '日本优化 CN2 中继 3'
+    type: ss
+    server: jp3.edge.as4809.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '日本优化 CN2 中继 4'
+    type: ss
+    server: jp4.edge.as4809.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '日本优化 CN2 中继 5'
+    type: ss
+    server: jp5.edge.as4809.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港高级 IEPL 中继 1'
+    type: ss
+    server: hk1.edge.iplc.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港高级 IEPL 中继 2'
+    type: ss
+    server: hk2.edge.iplc.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港高级 IEPL 中继 3'
+    type: ss
+    server: hk3.edge.iplc.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港高级 IEPL 中继 4'
+    type: ss
+    server: hk4.edge.iplc.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港高级 IEPL 中继 5'
+    type: ss
+    server: hk5.edge.iplc.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港高级 IEPL 中继 6'
+    type: ss
+    server: hk6.edge.iplc.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港高级 IEPL 中继 7'
+    type: ss
+    server: hk7.edge.iplc.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港高级 IEPL 中继 8'
+    type: ss
+    server: hk8.edge.iplc.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港高级 IEPL 中继 9'
+    type: ss
+    server: hk9.edge.iplc.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港高级 IEPL 中继 10'
+    type: ss
+    server: hk10.edge.iplc.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港高级 IEPL 中继 11'
+    type: ss
+    server: hk11.edge.iplc.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港高级 IEPL 中继 12'
+    type: ss
+    server: hk12.edge.iplc.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港高级 IEPL 中继 13'
+    type: ss
+    server: hk13.edge.iplc.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港高级 IEPL 中继 14'
+    type: ss
+    server: hk14.edge.iplc.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港高级 IEPL 中继 15'
+    type: ss
+    server: hk15.edge.iplc.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港高级 IEPL 中继 16'
+    type: ss
+    server: hk16.edge.iplc.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '日本高级 IEPL 中继 1'
+    type: ss
+    server: jp1.edge.iplc.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '日本高级 IEPL 中继 2'
+    type: ss
+    server: jp2.edge.iplc.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '美国高级 IEPL 中继 1'
+    type: ss
+    server: us1.edge.iplc.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '美国高级 IEPL 中继 2'
+    type: ss
+    server: us2.edge.iplc.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '美国高级 IEPL 中继 3'
+    type: ss
+    server: us3.edge.iplc.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '美国高级 IEPL 中继 4'
+    type: ss
+    server: us4.edge.iplc.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '台湾高级 IEPL 中继 1'
+    type: ss
+    server: tw1.edge.iplc.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '台湾高级 IEPL 中继 2'
+    type: ss
+    server: tw2.edge.iplc.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '台湾高级 IEPL 中继 3'
+    type: ss
+    server: tw3.edge.iplc.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '美国标准 IEPL 中继 1'
+    type: ss
+    server: us1.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '美国标准 IEPL 中继 2'
+    type: ss
+    server: us2.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '美国标准 IEPL 中继 3'
+    type: ss
+    server: us3.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '美国标准 IEPL 中继 4'
+    type: ss
+    server: us4.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '美国标准 IEPL 中继 5'
+    type: ss
+    server: us5.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '美国标准 IEPL 中继 6'
+    type: ss
+    server: us6.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '美国标准 IEPL 中继 7'
+    type: ss
+    server: us7.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '美国标准 IEPL 中继 8'
+    type: ss
+    server: us8.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '美国标准 IEPL 中继 9'
+    type: ss
+    server: us9.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '美国标准 IEPL 中继 10'
+    type: ss
+    server: us10.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '美国标准 IEPL 中继 11'
+    type: ss
+    server: us11.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '日本标准 IEPL 中继 1'
+    type: ss
+    server: jp1.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '日本标准 IEPL 中继 2'
+    type: ss
+    server: jp2.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '日本标准 IEPL 中继 3'
+    type: ss
+    server: jp3.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '日本标准 IEPL 中继 4'
+    type: ss
+    server: jp4.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '日本标准 IEPL 中继 5'
+    type: ss
+    server: jp5.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '日本标准 IEPL 中继 6'
+    type: ss
+    server: jp6.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '日本标准 IEPL 中继 7'
+    type: ss
+    server: jp7.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '日本标准 IEPL 中继 8'
+    type: ss
+    server: jp8.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '日本标准 IEPL 中继 9'
+    type: ss
+    server: jp9.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '日本标准 IEPL 中继 10'
+    type: ss
+    server: jp10.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '日本标准 IEPL 中继 11'
+    type: ss
+    server: jp11.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港标准 IEPL 中继 1'
+    type: ss
+    server: hk1.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港标准 IEPL 中继 2'
+    type: ss
+    server: hk2.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港标准 IEPL 中继 3'
+    type: ss
+    server: hk3.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港标准 IEPL 中继 4'
+    type: ss
+    server: hk4.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港标准 IEPL 中继 5'
+    type: ss
+    server: hk5.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港标准 IEPL 中继 6'
+    type: ss
+    server: hk6.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港标准 IEPL 中继 7'
+    type: ss
+    server: hk7.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港标准 IEPL 中继 8'
+    type: ss
+    server: hk8.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港标准 IEPL 中继 9'
+    type: ss
+    server: hk9.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港标准 IEPL 中继 10'
+    type: ss
+    server: hk10.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港标准 IEPL 中继 11'
+    type: ss
+    server: hk11.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港标准 IEPL 中继 12'
+    type: ss
+    server: hk12.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港标准 IEPL 中继 13'
+    type: ss
+    server: hk13.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港标准 IEPL 中继 14'
+    type: ss
+    server: hk14.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港标准 IEPL 中继 15'
+    type: ss
+    server: hk15.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港标准 IEPL 中继 16'
+    type: ss
+    server: hk16.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港标准 IEPL 中继 17'
+    type: ss
+    server: hk17.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港标准 IEPL 中继 18'
+    type: ss
+    server: hk18.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港标准 IEPL 中继 19'
+    type: ss
+    server: hk19.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港标准 IEPL 中继 20'
+    type: ss
+    server: hk20.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '香港标准 IEPL 中继 21'
+    type: ss
+    server: hk21.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '台湾标准 IEPL 中继 1'
+    type: ss
+    server: tw1.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '台湾标准 IEPL 中继 2'
+    type: ss
+    server: tw2.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '台湾标准 IEPL 中继 3'
+    type: ss
+    server: tw3.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '台湾标准 IEPL 中继 4'
+    type: ss
+    server: tw4.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '韩国标准 IEPL 中继 1'
+    type: ss
+    server: kr1.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '韩国标准 IEPL 中继 2'
+    type: ss
+    server: kr2.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '新加坡标准 IEPL 中继 1'
+    type: ss
+    server: sg1.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '新加坡标准 IEPL 中继 2'
+    type: ss
+    server: sg2.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '新加坡标准 IEPL 中继 3'
+    type: ss
+    server: sg3.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '英国标准 IEPL 中继 1'
+    type: ss
+    server: uk1.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '德国标准 IEPL 中继 1'
+    type: ss
+    server: de1.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '荷兰标准 IEPL 中继 1'
+    type: ss
+    server: nl1.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '巴西标准 IEPL 中继 1'
+    type: ss
+    server: br1.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '印度标准 IEPL 中继 1'
+    type: ss
+    server: in1.edge.bgp.app
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '中国标准 BGP 边缘 1'
+    type: ss
+    server: cn1.edge.cn2.dev
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: '中国标准 BGP 边缘 2'
+    type: ss
+    server: cn2.edge.cn2.dev
+    port: 14187
+    cipher: chacha20-ietf
+    password: GwEU01uXWm0Pp6t08
+    udp: true
+  -
+    name: 'Netease Proxy China 1'
+    type: http
+    server: netease1.edge.iepl.dev
+    port: 4001
+  -
+    name: 'Netease Proxy China 1 Method 2'
+    type: http
+    server: netease1.edge.iepl.dev
+    port: 4002
+  -
+    name: 'Netease Proxy China 1 Method 3'
+    type: http
+    server: netease1.edge.iepl.dev
+    port: 4003
+  -
+    name: 'Netease Proxy China 2'
+    type: http
+    server: netease3.edge.iepl.dev
+    port: 4001
+  -
+    name: 'Netease Proxy Overseas 1'
+    type: http
+    server: netease2.edge.iepl.dev
+    port: 4001
+  -
+    name: 'Netease Proxy Overseas 1 Method 2'
+    type: http
+    server: netease2.edge.iepl.dev
+    port: 4002
+  -
+    name: 'Netease Proxy Overseas 1 Method 3'
+    type: http
+    server: netease2.edge.iepl.dev
+    port: 4003
+proxy-groups:
+  -
+    name: rixCloud
+    type: select
+    proxies: ['日本优化 CN2 中继 1', '日本优化 CN2 中继 2', '日本优化 CN2 中继 3', '日本优化 CN2 中继 4', '日本优化 CN2 中继 5', '香港高级 IEPL 中继 1', '香港高级 IEPL 中继 2', '香港高级 IEPL 中继 3', '香港高级 IEPL 中继 4', '香港高级 IEPL 中继 5', '香港高级 IEPL 中继 6', '香港高级 IEPL 中继 7', '香港高级 IEPL 中继 8', '香港高级 IEPL 中继 9', '香港高级 IEPL 中继 10', '香港高级 IEPL 中继 11', '香港高级 IEPL 中继 12', '香港高级 IEPL 中继 13', '香港高级 IEPL 中继 14', '香港高级 IEPL 中继 15', '香港高级 IEPL 中继 16', '日本高级 IEPL 中继 1', '日本高级 IEPL 中继 2', '美国高级 IEPL 中继 1', '美国高级 IEPL 中继 2', '美国高级 IEPL 中继 3', '美国高级 IEPL 中继 4', '台湾高级 IEPL 中继 1', '台湾高级 IEPL 中继 2', '台湾高级 IEPL 中继 3', '香港实验性 IEPL 中继 1', '香港实验性 IEPL 中继 2', '香港实验性 IEPL 中继 3', '香港实验性 IEPL 中继 4', '香港实验性 IEPL 中继 5', '美国标准 IEPL 中继 1', '美国标准 IEPL 中继 2', '美国标准 IEPL 中继 3', '美国标准 IEPL 中继 4', '美国标准 IEPL 中继 5', '美国标准 IEPL 中继 6', '美国标准 IEPL 中继 7', '美国标准 IEPL 中继 8', '美国标准 IEPL 中继 9', '美国标准 IEPL 中继 10', '美国标准 IEPL 中继 11', '日本标准 IEPL 中继 1', '日本标准 IEPL 中继 2', '日本标准 IEPL 中继 3', '日本标准 IEPL 中继 4', '日本标准 IEPL 中继 5', '日本标准 IEPL 中继 6', '日本标准 IEPL 中继 7', '日本标准 IEPL 中继 8', '日本标准 IEPL 中继 9', '日本标准 IEPL 中继 10', '日本标准 IEPL 中继 11', '香港标准 IEPL 中继 1', '香港标准 IEPL 中继 2', '香港标准 IEPL 中继 3', '香港标准 IEPL 中继 4', '香港标准 IEPL 中继 5', '香港标准 IEPL 中继 6', '香港标准 IEPL 中继 7', '香港标准 IEPL 中继 8', '香港标准 IEPL 中继 9', '香港标准 IEPL 中继 10', '香港标准 IEPL 中继 11', '香港标准 IEPL 中继 12', '香港标准 IEPL 中继 13', '香港标准 IEPL 中继 14', '香港标准 IEPL 中继 15', '香港标准 IEPL 中继 16', '香港标准 IEPL 中继 17', '香港标准 IEPL 中继 18', '香港标准 IEPL 中继 19', '香港标准 IEPL 中继 20', '香港标准 IEPL 中继 21', '台湾标准 IEPL 中继 1', '台湾标准 IEPL 中继 2', '台湾标准 IEPL 中继 3', '台湾标准 IEPL 中继 4', '韩国标准 IEPL 中继 1', '韩国标准 IEPL 中继 2', '新加坡标准 IEPL 中继 1', '新加坡标准 IEPL 中继 2', '新加坡标准 IEPL 中继 3', '英国标准 IEPL 中继 1', '德国标准 IEPL 中继 1', '荷兰标准 IEPL 中继 1', '巴西标准 IEPL 中继 1', '印度标准 IEPL 中继 1', '中国标准 BGP 边缘 1', '中国标准 BGP 边缘 2']
+rules:
+  - 'DOMAIN-KEYWORD,blogspot,rixCloud'
+  - 'DOMAIN-KEYWORD,facebook,rixCloud'
+  - 'DOMAIN-KEYWORD,github,rixCloud'
+  - 'DOMAIN-KEYWORD,google,rixCloud'
+  - 'DOMAIN-KEYWORD,pinterest,rixCloud'
+  - 'DOMAIN-KEYWORD,slack,rixCloud'
+  - 'DOMAIN-KEYWORD,wiki,rixCloud'
+  - 'DOMAIN-SUFFIX,wiktionary.org,rixCloud'
+  - 'DOMAIN-SUFFIX,520cc.cc,rixCloud'
+  - 'DOMAIN-SUFFIX,abc.net.au,rixCloud'
+  - 'DOMAIN-SUFFIX,abc.xyz,rixCloud'
+  - 'DOMAIN-SUFFIX,admin.recaptcha.net,rixCloud'
+  - 'DOMAIN-SUFFIX,amazon.co.jp,rixCloud'
+  - 'DOMAIN-SUFFIX,android.com,rixCloud'
+  - 'DOMAIN-SUFFIX,androidify.com,rixCloud'
+  - 'DOMAIN-SUFFIX,apk-dl.com,rixCloud'
+  - 'DOMAIN-SUFFIX,apkpure.com,rixCloud'
+  - 'DOMAIN-SUFFIX,appspot.com,rixCloud'
+  - 'DOMAIN-SUFFIX,ask.com,rixCloud'
+  - 'DOMAIN-SUFFIX,autodraw.com,rixCloud'
+  - 'DOMAIN-SUFFIX,avgle.com,rixCloud'
+  - 'DOMAIN-SUFFIX,bandwagonhost.com,rixCloud'
+  - 'DOMAIN-SUFFIX,bbc.co.uk,rixCloud'
+  - 'DOMAIN-SUFFIX,bbc.com,rixCloud'
+  - 'DOMAIN-SUFFIX,bbci.co.uk,rixCloud'
+  - 'DOMAIN-SUFFIX,behance.net,rixCloud'
+  - 'DOMAIN-SUFFIX,bibox.com,rixCloud'
+  - 'DOMAIN-SUFFIX,binance.com,rixCloud'
+  - 'DOMAIN-SUFFIX,bing.com,rixCloud'
+  - 'DOMAIN-SUFFIX,bitfinex.com,rixCloud'
+  - 'DOMAIN-SUFFIX,blogger.com,rixCloud'
+  - 'DOMAIN-SUFFIX,booklive.jp,rixCloud'
+  - 'DOMAIN-SUFFIX,bwh1.net,rixCloud'
+  - 'DOMAIN-SUFFIX,capitalg.com,rixCloud'
+  - 'DOMAIN-SUFFIX,cbc.ca,rixCloud'
+  - 'DOMAIN-SUFFIX,cdninstagram.com,rixCloud'
+  - 'DOMAIN-SUFFIX,certificate-transparency.org,rixCloud'
+  - 'DOMAIN-SUFFIX,chrome.com,rixCloud'
+  - 'DOMAIN-SUFFIX,chromeexperiments.com,rixCloud'
+  - 'DOMAIN-SUFFIX,chromestatus.com,rixCloud'
+  - 'DOMAIN-SUFFIX,chromium.org,rixCloud'
+  - 'DOMAIN-SUFFIX,cloudflareresolve.com,rixCloud'
+  - 'DOMAIN-SUFFIX,cloudfront.net,rixCloud'
+  - 'DOMAIN-SUFFIX,creativelab5.com,rixCloud'
+  - 'DOMAIN-SUFFIX,dailymotion.com,rixCloud'
+  - 'DOMAIN-SUFFIX,debug.com,rixCloud'
+  - 'DOMAIN-SUFFIX,deepmind.com,rixCloud'
+  - 'DOMAIN-SUFFIX,deezer.com,rixCloud'
+  - 'DOMAIN-SUFFIX,dialogflow.com,rixCloud'
+  - 'DOMAIN-SUFFIX,discordapp.net,rixCloud'
+  - 'DOMAIN-SUFFIX,dropbox.com,rixCloud'
+  - 'DOMAIN-SUFFIX,dropboxusercontent.com,rixCloud'
+  - 'DOMAIN-SUFFIX,duckduckgo.com,rixCloud'
+  - 'DOMAIN-SUFFIX,fb.com,rixCloud'
+  - 'DOMAIN-SUFFIX,fb.me,rixCloud'
+  - 'DOMAIN-SUFFIX,fbcdn.net,rixCloud'
+  - 'DOMAIN-SUFFIX,feedly.com,rixCloud'
+  - 'DOMAIN-SUFFIX,firebaseio.com,rixCloud'
+  - 'DOMAIN-SUFFIX,flickr.com,rixCloud'
+  - 'DOMAIN-SUFFIX,gate.io,rixCloud'
+  - 'DOMAIN-SUFFIX,getmdl.io,rixCloud'
+  - 'DOMAIN-SUFFIX,getoutline.org,rixCloud'
+  - 'DOMAIN-SUFFIX,ggpht.com,rixCloud'
+  - 'DOMAIN-SUFFIX,gmail.com,rixCloud'
+  - 'DOMAIN-SUFFIX,gmodules.com,rixCloud'
+  - 'DOMAIN-SUFFIX,godoc.org,rixCloud'
+  - 'DOMAIN-SUFFIX,golang.org,rixCloud'
+  - 'DOMAIN-SUFFIX,goodreads.com,rixCloud'
+  - 'DOMAIN-SUFFIX,googleapis.cn,rixCloud'
+  - 'DOMAIN-SUFFIX,googlevideo.com,rixCloud'
+  - 'DOMAIN-SUFFIX,gstatic.com,rixCloud'
+  - 'DOMAIN-SUFFIX,gv.com,rixCloud'
+  - 'DOMAIN-SUFFIX,gvt0.com,rixCloud'
+  - 'DOMAIN-SUFFIX,gvt1.com,rixCloud'
+  - 'DOMAIN-SUFFIX,gvt3.com,rixCloud'
+  - 'DOMAIN-SUFFIX,gwtproject.org,rixCloud'
+  - 'DOMAIN-SUFFIX,hbg.com,rixCloud'
+  - 'DOMAIN-SUFFIX,huobi.pro,rixCloud'
+  - 'DOMAIN-SUFFIX,initiummall.com,rixCloud'
+  - 'DOMAIN-SUFFIX,instagram.com,rixCloud'
+  - 'DOMAIN-SUFFIX,issuu.com,rixCloud'
+  - 'DOMAIN-SUFFIX,itasoftware.com,rixCloud'
+  - 'DOMAIN-SUFFIX,jkforum.net,rixCloud'
+  - 'DOMAIN-SUFFIX,kakao.com,rixCloud'
+  - 'DOMAIN-SUFFIX,line-apps.com,rixCloud'
+  - 'DOMAIN-SUFFIX,line-scdn.net,rixCloud'
+  - 'DOMAIN-SUFFIX,line.me,rixCloud'
+  - 'DOMAIN-SUFFIX,live.com,rixCloud'
+  - 'DOMAIN-SUFFIX,madewithcode.com,rixCloud'
+  - 'DOMAIN-SUFFIX,material.io,rixCloud'
+  - 'DOMAIN-SUFFIX,medium.com,rixCloud'
+  - 'DOMAIN-SUFFIX,mega.nz,rixCloud'
+  - 'DOMAIN-SUFFIX,messenger.com,rixCloud'
+  - 'DOMAIN-SUFFIX,naver.com,rixCloud'
+  - 'DOMAIN-SUFFIX,naver.jp,rixCloud'
+  - 'DOMAIN-SUFFIX,newsblur.com,rixCloud'
+  - 'DOMAIN-SUFFIX,nyt.com,rixCloud'
+  - 'DOMAIN-SUFFIX,nytco.com,rixCloud'
+  - 'DOMAIN-SUFFIX,nytimes.com,rixCloud'
+  - 'DOMAIN-SUFFIX,nytstyle.com,rixCloud'
+  - 'DOMAIN-SUFFIX,oculus.com,rixCloud'
+  - 'DOMAIN-SUFFIX,oculuscdn.com,rixCloud'
+  - 'DOMAIN-SUFFIX,ok.ru,rixCloud'
+  - 'DOMAIN-SUFFIX,okex.com,rixCloud'
+  - 'DOMAIN-SUFFIX,pinimg.com,rixCloud'
+  - 'DOMAIN-SUFFIX,pixiv.net,rixCloud'
+  - 'DOMAIN-SUFFIX,polymer-project.org,rixCloud'
+  - 'DOMAIN-SUFFIX,quora.com,rixCloud'
+  - 'DOMAIN-SUFFIX,recaptcha.net,rixCloud'
+  - 'DOMAIN-SUFFIX,reddit.com,rixCloud'
+  - 'DOMAIN-SUFFIX,redditmedia.com,rixCloud'
+  - 'DOMAIN-SUFFIX,reuters.com,rixCloud'
+  - 'DOMAIN-SUFFIX,scribd.com,rixCloud'
+  - 'DOMAIN-SUFFIX,shadowsocks.org,rixCloud'
+  - 'DOMAIN-SUFFIX,shattered.io,rixCloud'
+  - 'DOMAIN-SUFFIX,slideshare.net,rixCloud'
+  - 'DOMAIN-SUFFIX,soundcloud.com,rixCloud'
+  - 'DOMAIN-SUFFIX,spoti.fi,rixCloud'
+  - 'DOMAIN-SUFFIX,spotify.com,rixCloud'
+  - 'DOMAIN-SUFFIX,synergyse.com,rixCloud'
+  - 'DOMAIN-SUFFIX,t.co,rixCloud'
+  - 'DOMAIN-SUFFIX,tensorflow.org,rixCloud'
+  - 'DOMAIN-SUFFIX,theinitium.com,rixCloud'
+  - 'DOMAIN-SUFFIX,tidal.com,rixCloud'
+  - 'DOMAIN-SUFFIX,tiltbrush.com,rixCloud'
+  - 'DOMAIN-SUFFIX,tineye.com,rixCloud'
+  - 'DOMAIN-SUFFIX,tumblr.com,rixCloud'
+  - 'DOMAIN-SUFFIX,turbobit.net,rixCloud'
+  - 'DOMAIN-SUFFIX,twimg.co,rixCloud'
+  - 'DOMAIN-SUFFIX,twimg.com,rixCloud'
+  - 'DOMAIN-SUFFIX,twitpic.com,rixCloud'
+  - 'DOMAIN-SUFFIX,twitter.com,rixCloud'
+  - 'DOMAIN-SUFFIX,uptodown.com,rixCloud'
+  - 'DOMAIN-SUFFIX,v2ray.com,rixCloud'
+  - 'DOMAIN-SUFFIX,vimeo.com,rixCloud'
+  - 'DOMAIN-SUFFIX,voachinese.com,rixCloud'
+  - 'DOMAIN-SUFFIX,waveprotocol.org,rixCloud'
+  - 'DOMAIN-SUFFIX,waymo.com,rixCloud'
+  - 'DOMAIN-SUFFIX,webmproject.org,rixCloud'
+  - 'DOMAIN-SUFFIX,webrtc.org,rixCloud'
+  - 'DOMAIN-SUFFIX,whatbrowser.org,rixCloud'
+  - 'DOMAIN-SUFFIX,whatsapp.com,rixCloud'
+  - 'DOMAIN-SUFFIX,whatsapp.net,rixCloud'
+  - 'DOMAIN-SUFFIX,whoer.net,rixCloud'
+  - 'DOMAIN-SUFFIX,widevine.com,rixCloud'
+  - 'DOMAIN-SUFFIX,wsj.com,rixCloud'
+  - 'DOMAIN-SUFFIX,wsj.net,rixCloud'
+  - 'DOMAIN-SUFFIX,x.company,rixCloud'
+  - 'DOMAIN-SUFFIX,yahoo.com,rixCloud'
+  - 'DOMAIN-SUFFIX,ycombinator.com,rixCloud'
+  - 'DOMAIN-SUFFIX,youtu.be,rixCloud'
+  - 'DOMAIN-SUFFIX,youtube.com,rixCloud'
+  - 'DOMAIN-SUFFIX,yt.be,rixCloud'
+  - 'DOMAIN-SUFFIX,ytimg.com,rixCloud'
+  - 'DOMAIN,ccmdl.adobe.com,rixCloud'
+  - 'DOMAIN,content.jwplatform.com,rixCloud'
+  - 'DOMAIN,onedrive.live.com,rixCloud'
+  - 'DOMAIN,videos-f.jwpsrv.com,rixCloud'
+  - 'DOMAIN,wego.here.com,rixCloud'
+  - 'DOMAIN,youtubei.googleapis.com,rixCloud'
+  - 'DOMAIN,zh.ifixit.com,rixCloud'
+  - 'DOMAIN-SUFFIX,t.me,rixCloud'
+  - 'DOMAIN-SUFFIX,telegra.ph,rixCloud'
+  - 'DOMAIN-SUFFIX,telegram.org,rixCloud'
+  - 'IP-CIDR,91.108.4.0/22,rixCloud'
+  - 'IP-CIDR,91.108.8.0/22,rixCloud'
+  - 'IP-CIDR,91.108.56.0/22,rixCloud'
+  - 'IP-CIDR,109.239.140.0/24,rixCloud'
+  - 'IP-CIDR,149.154.160.0/20,rixCloud'
+  - 'IP-CIDR,17.0.0.0/8,DIRECT'
+  - 'DOMAIN-SUFFIX,local,DIRECT'
+  - 'IP-CIDR,127.0.0.0/8,DIRECT'
+  - 'IP-CIDR,172.16.0.0/12,DIRECT'
+  - 'IP-CIDR,192.168.0.0/16,DIRECT'
+  - 'IP-CIDR,10.0.0.0/8,DIRECT'
+  - 'IP-CIDR,100.64.0.0/10,DIRECT'
+  - 'GEOIP,CN,DIRECT'
+  - 'MATCH,rixCloud'
